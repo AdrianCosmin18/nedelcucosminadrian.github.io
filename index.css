@@ -1,0 +1,273 @@
+body {
+  border: 2px solid black;
+  margin: 0px;
+}
+
+header {
+  border: 2px solid mediumblue;
+  display: flex;
+  justify-content: row;
+  /* margin-left: 5%; */
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+header h1 {
+  margin-right: auto;
+  margin-left: 1%;
+}
+
+.bar {
+  /* border: 2px solid firebrick; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 1%;
+}
+
+.bar p {
+  /* border: 2px solid forestgreen; */
+  font-size: 20px;
+}
+
+main {
+  border: 2px solid magenta;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.presentation {
+  border: 2px solid forestgreen;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.userIcon {
+  width: 300px;
+  border: 2px solid red;
+  display: flex;
+}
+
+.nume {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.jobRole {
+  display: flex;
+  justify-content: center;
+}
+
+.iconLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.fbIcon {
+  width: 50px;
+}
+
+.gitIcon {
+  width: 50px;
+}
+
+.me {
+  border: 2px solid rosybrown;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "aboutme aboutme" "personal interests";
+}
+
+.aboutMe {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  grid-area: aboutme;
+}
+
+.infoIcon {
+  width: 100px;
+}
+
+.personalDetails {
+  border: 2px solid saddlebrown;
+  grid-area: personal;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "b bv" "p pv" "m mv" "a av";
+}
+
+.birthdate {
+  grid-area: b;
+}
+
+.birthdate-value {
+  grid-area: bv;
+}
+
+.phone {
+  grid-area: p;
+}
+
+.phone-value {
+  grid-area: pv;
+}
+
+.mail {
+  grid-area: m;
+}
+
+.mail-value {
+  grid-area: mv;
+}
+
+.adress {
+  grid-area: a;
+}
+
+.adress-value {
+  grid-area: av;
+}
+
+.myInterests {
+  border: 2px solid slateblue;
+  grid-area: interests;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "g mo s" "ma c mu";
+}
+
+.games {
+  grid-area: g;
+}
+
+.movies {
+  grid-area: mo;
+}
+
+.sport {
+  grid-area: s;
+}
+
+.math {
+  grid-area: ma;
+}
+
+.code {
+  grid-area: c;
+}
+
+.music {
+  grid-area: mu;
+}
+
+.skills {
+  border: 2px solid lightseagreen;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title title" "ts ps";
+}
+
+.technicalSkills {
+  grid-area: ts;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profesionalSkills {
+  grid-area: ps;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.titleSkills {
+  grid-area: title;
+  text-align: center;
+}
+
+.educationAndExperience {
+  border: 2px solid forestgreen;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.education,
+.experience {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.university,
+.highSchool,
+.hp,
+.sportisimo {
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  text-align: center;
+}
+
+.universityName,
+.highSchoolName,
+.hpName,
+.sportisimoName {
+  font-weight: bold;
+}
+
+.experience {
+}
+
+footer {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mail,
+.linkedin {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkedin {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mail h2 {
+  border: 2px solid red;
+}
+
+.mail p {
+  border: 2px solid red;
+}

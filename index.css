@@ -59,8 +59,9 @@ main {
 
 .userIcon {
   width: 300px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
+  margin-top: 20px;
 }
 
 .nume {
@@ -78,9 +79,14 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  margin-bottom: 10px;
 }
 
 .fbIcon {
+  width: 50px;
+}
+
+.fa-facebook {
   width: 50px;
 }
 
@@ -113,6 +119,7 @@ main {
 .infoIcon {
   width: 100px;
   background-color: #1e556a;
+  margin-top: 10px;
 }
 
 .personalDetails {
@@ -279,6 +286,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 .university,
@@ -313,6 +321,10 @@ main {
 
 .projects h2 {
   text-align: center;
+}
+
+.projects article {
+  margin-left: 5%;
 }
 
 footer {

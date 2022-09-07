@@ -1,10 +1,12 @@
 body {
   border: 2px solid black;
   margin: 0px;
+  background-color: #e8eaeb;
 }
 
 header {
-  border: 2px solid mediumblue;
+  background-color: #1e556a;
+  /* border: 2px solid mediumblue; */
   display: flex;
   justify-content: row;
   /* margin-left: 5%; */
@@ -27,12 +29,15 @@ header h1 {
 }
 
 .bar p {
-  /* border: 2px solid forestgreen; */
+  border: 2px solid #e8eaeb;
+  background-color: #e8eaeb;
+  padding: 5px;
   font-size: 20px;
+  border-radius: 10%;
 }
 
 main {
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,16 +47,19 @@ main {
 }
 
 .presentation {
-  border: 2px solid forestgreen;
+  background-color: #1e556a;
+  /* border: 2px solid forestgreen; */
   display: flex;
   flex-direction: column;
+  margin-bottom: 2%;
+  border-radius: 2%;
 
   align-items: center;
 }
 
 .userIcon {
   width: 300px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
 }
 
@@ -81,15 +89,18 @@ main {
 }
 
 .me {
-  border: 2px solid rosybrown;
+  /* border: 2px solid rosybrown; */
+  background-color: #1e556a;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "aboutme aboutme" "personal interests";
+  border-radius: 2%;
+  margin-bottom: 5%;
 }
 
 .aboutMe {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,16 +112,28 @@ main {
 
 .infoIcon {
   width: 100px;
+  background-color: #1e556a;
 }
 
 .personalDetails {
-  border: 2px solid saddlebrown;
+  /* border: 2px solid saddlebrown; */
   grid-area: personal;
+  text-align: center;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: "b bv" "p pv" "m mv" "a av";
+}
+
+.personalDetails p {
+  /* border: 1px solid #e8eaeb; */
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 5px;
+  background-color: #00aff0;
+  color: #e8eaeb;
 }
 
 .birthdate {
@@ -146,13 +169,24 @@ main {
 }
 
 .myInterests {
-  border: 2px solid slateblue;
+  /* border: 2px solid slateblue; */
   grid-area: interests;
+  text-align: center;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "g mo s" "ma c mu";
+}
+
+.myInterests p {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  border: 2px solid #e8eaeb;
+  background-color: #e8eaeb;
+  color: #00aff0;
+  padding: 5px;
 }
 
 .games {
@@ -180,10 +214,13 @@ main {
 }
 
 .skills {
-  border: 2px solid lightseagreen;
+  /* border: 2px solid lightseagreen; */
+  background-color: #1e556a;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "title title" "ts ps";
+  margin-bottom: 5%;
+  border-radius: 1%;
 }
 
 .technicalSkills {
@@ -193,11 +230,31 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.technicalSkills p {
+  border: 2px solid #e8eaeb;
+  background-color: #e8eaeb;
+  border-radius: 10%;
+  display: flex;
+  padding: 5px;
+  justify-self: center;
+}
+
 .profesionalSkills {
   grid-area: ps;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profesionalSkills p {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-self: center;
+  align-self: center;
+  border: 1px solid #e8eaeb;
+  padding: 5px;
+  background-color: #00aff0;
+  border-radius: 5%;
 }
 
 .titleSkills {
@@ -206,14 +263,17 @@ main {
 }
 
 .educationAndExperience {
-  border: 2px solid forestgreen;
+  /* border: 2px solid forestgreen; */
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #1e556a;
+  margin-bottom: 5%;
+  border-radius: 2%;
 }
 
 .education,
 .experience {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -225,9 +285,15 @@ main {
 .highSchool,
 .hp,
 .sportisimo {
-  border: 2px solid greenyellow;
-  background-color: greenyellow;
+  border: 2px solid #e8eaeb;
+  background-color: #00aff0;
   text-align: center;
+  border-radius: 2%;
+}
+
+.hp {
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .universityName,
@@ -237,19 +303,30 @@ main {
   font-weight: bold;
 }
 
-.experience {
+.projects {
+  /* border: 2px solid red; */
+  background-color: #1e556a;
+  border-radius: 2%;
+  color: #e8eaeb;
+  margin-bottom: 5%;
+}
+
+.projects h2 {
+  text-align: center;
 }
 
 footer {
-  border: 2px solid green;
+  border: 2px solid #1e556a;
+  background-color: #1e556a;
+  border-radius: 1%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  color: #e8eaeb;
 }
 
 .mail,
 .linkedin {
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -257,17 +334,15 @@ footer {
 }
 
 .linkedin {
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.mail h2 {
-  border: 2px solid red;
-}
-
-.mail p {
-  border: 2px solid red;
-}
+/* @media (max-width: 1100px) {
+  .me {
+    display: flex;
+    flex-direction: column;
+  }
+} */
